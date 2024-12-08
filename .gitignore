@@ -1,0 +1,17 @@
+# .gitignore
+
+# Python
+*.pyc
+__pycache__/
+
+# Django
+*.log
+*.pot
+*.py[cod]
+db.sqlite3
+/mysite/db.sqlite3 
+
+# Virtual environment
+/my_env/
+
+.env  # Environment variables
